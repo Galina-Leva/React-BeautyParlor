@@ -129,15 +129,27 @@ export default class Blog extends Component {
             <Col md="3" >
               <h5 className="text-center mt-5">Categories</h5>
               <Card  className="mt-3" border="info">
-                <ListGroup variant="flush">
-                 <ListGroup.Item>Hair care</ListGroup.Item>
-                 <ListGroup.Item>Massage</ListGroup.Item>
-                 <ListGroup.Item>Haircuts and coloring</ListGroup.Item>
-                 <ListGroup.Item>Wedding hairstyles</ListGroup.Item>
-                 <ListGroup.Item>Hair Treatments</ListGroup.Item>
-                 <ListGroup.Item>News</ListGroup.Item>
-                </ListGroup>
-               
+
+                <div class="ListGroup">
+                   <a href="https://scientificrussia.ru/articles/uhod-za-volosami-po-naucnomu"class="list-group-item list-group-item-action ">
+                   Hair care
+                   </a>
+                   <a href="https://rg.ru/2019/04/23/kak-v-70-vygliadet-na-30-nazvan-prostoj-sposob-sohranit-molodost.html" class="list-group-item list-group-item-action ">
+                   Massage
+                   </a>
+                   <a href="https://mana.su/modnyie-strizhki" class="list-group-item list-group-item-action ">
+                   Haircuts and coloring
+                   </a>
+                   <a href="https://xcook.info/beauty/svadebnye-pricheski-stili-i-ih-varianty-opisanie-kak-sdelat-svoimi-rukami.html" class="list-group-item list-group-item-action ">
+                   Wedding hairstyles
+                   </a>
+                   
+                   <a href="https://cyberleninka.ru/article/n/moda-kak-sotsialno-kulturnoe-yavlenie" class="list-group-item list-group-item-action ">
+                  Fashion news
+                   </a>
+                   </div>
+              
+
               </Card>
               <Card className="mt-3" border="info">
                 <Card.Body>

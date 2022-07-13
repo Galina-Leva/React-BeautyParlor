@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 import { Navbar, Form, Container, Nav, NavLink, Button, FormControl } from 'react-bootstrap'
-
-
-
 import {
     BrowserRouter as Router,
     Route,
