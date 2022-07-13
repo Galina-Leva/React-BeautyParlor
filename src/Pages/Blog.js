@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Card, Container, Col, Row, ListGroup } from "react-bootstrap";
+import {Card, Container, Col, Row, ListGroup, Button, ListGroupItem } from "react-bootstrap";
 
 
 export default class Blog extends Component {
@@ -130,13 +130,14 @@ export default class Blog extends Component {
               <h5 className="text-center mt-5">Categories</h5>
               <Card  className="mt-3" border="info">
                 <ListGroup variant="flush">
-                  <ListGroup.Item>Hair care</ListGroup.Item>
-                  <ListGroup.Item>Massage</ListGroup.Item>
-                  <ListGroup.Item>Haircuts and coloring</ListGroup.Item>
-                  <ListGroup.Item>Wedding hairstyles</ListGroup.Item>
-                  <ListGroup.Item>Hair Treatments</ListGroup.Item>
-                  <ListGroup.Item>News</ListGroup.Item>
+                 <ListGroup.Item>Hair care</ListGroup.Item>
+                 <ListGroup.Item>Massage</ListGroup.Item>
+                 <ListGroup.Item>Haircuts and coloring</ListGroup.Item>
+                 <ListGroup.Item>Wedding hairstyles</ListGroup.Item>
+                 <ListGroup.Item>Hair Treatments</ListGroup.Item>
+                 <ListGroup.Item>News</ListGroup.Item>
                 </ListGroup>
+               
               </Card>
               <Card className="mt-3" border="info">
                 <Card.Body>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Navbar, Form, Container, Nav, NavLink, Button, FormControl } from 'react-bootstrap'
-import logo from './logo192.png'
+
 
 
 import {
@@ -21,16 +21,16 @@ export default class Header extends Component {
         return (
             <>
                 <Router>            
-                <Navbar  collapseOnSelect expand="ms" bg="dark" variant="dark">
+                <Navbar  collapseOnSelect expand="ms" bg="light" >
                     <Container>
                         <Navbar.Brand href="/">
                             <img
-                                src={logo}
+                                src="https://st.depositphotos.com/1011728/5011/i/600/depositphotos_50116953-stock-photo-red-lipstick.jpg"
                                 height="30"
                                 width="30"
                                 className="d-inline-block align-top"
-                                alt="logo"
-                            /> React site
+                                alt="forest"
+                            /> Beauty Parlor
                         </Navbar.Brand> 
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav" >
@@ -47,7 +47,7 @@ export default class Header extends Component {
                                     placeholder="Search"
                                     className="mr-sm-2"
                                 />
-                                <Button variant="outline-info">
+                                <Button variant="outilo-dark">
                                     Search
                                 </Button>
                             </Form>
